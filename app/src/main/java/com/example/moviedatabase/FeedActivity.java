@@ -46,7 +46,7 @@ public class FeedActivity extends AppCompatActivity {
                                     }
                                     FeedAdap feedAdap = new FeedAdap(getApplicationContext(), dataForfeed);
                                     RecyclerView recyclerView = findViewById(R.id.recyclerview_feed);
-                                    recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+                                    recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
                                     recyclerView.setAdapter(feedAdap);
                                     Log.d("hello", "onCreate: " + result.toString());
                                 } catch (Throwable t) {
