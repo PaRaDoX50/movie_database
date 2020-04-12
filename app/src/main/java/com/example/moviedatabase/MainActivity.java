@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText userName_mock = findViewById(R.id.user_name);
         final EditText password_mock = findViewById(R.id.password);
 
+
         Button button = findViewById(R.id.button);
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -36,4 +37,5 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
 }

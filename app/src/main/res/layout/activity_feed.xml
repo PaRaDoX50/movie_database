@@ -5,14 +5,14 @@
     android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="load (click twice)"
-        android:id="@+id/button2"
-        />
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="load (click twice)"-->
+<!--        android:id="@+id/button2"-->
+<!--        />-->
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/recyclerview_feed"
         android:layout_margin="4dp"
         android:layout_height="match_parent"
