@@ -7,7 +7,8 @@
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:elevation="5dp">
+        android:elevation="5dp"
+        android:layout_margin="8dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -18,11 +19,15 @@
     <ImageView
         android:id="@+id/moview_poster1"
         android:layout_width="wrap_content"
+
+        android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/movie_title1"
         android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
         android:layout_height="wrap_content" />
 
     <TextView
